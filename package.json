@@ -1,0 +1,31 @@
+{
+  "name": "app-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theogoulart/apollo-best-deals-client.git"
+  },
+  "author": "theogoulart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theogoulart/apollo-best-deals-client/issues"
+  },
+  "homepage": "https://github.com/theogoulart/apollo-best-deals-client#readme",
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.3",
+    "@apollo/react-ssr": "^3.1.3",
+    "apollo-boost": "^0.4.7",
+    "graphql": "^14.6.0",
+    "next": "^9.2.1",
+    "next-apollo": "^3.1.10",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}

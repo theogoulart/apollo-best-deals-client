@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  font-size: calc(14px);
+  justify-content: center;
+}
+
+.App-body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1024px;
+}
