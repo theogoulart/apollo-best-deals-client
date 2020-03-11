@@ -1,5 +1,6 @@
 import { useQuery } from "@apollo/react-hooks";
 import { gql } from "apollo-boost";
+import { withApollo } from '../lib/apollo'
 
 import Layout from '../components/Layout/index';
 import OfferCard from '../components/OfferCard/index';
@@ -63,4 +64,4 @@ function Index () {
     );
 }
 
-export default Index;
+export default withApollo({ssr: true})(Index);
