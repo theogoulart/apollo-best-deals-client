@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 function OfferCard({ offer }) {
   return (
-    <Link href="/about">
+    <Link href="/oferta/[id].js" as={`/oferta/${offer.id}`}>
       <button className="card text-white mb-4 text-left">
         <div className="card-body" style={{padding: '9px'}}>
           <img className="mb-2" height="200" width="200" src={`https://i.promobit.com.br${offer.image}`} />

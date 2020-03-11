@@ -8,6 +8,7 @@ import OfferCard from '../components/OfferCard/index';
 const GET_OFFERS = gql`
     query offers {
         offers {
+            id
             title
             storeDomain
             image
