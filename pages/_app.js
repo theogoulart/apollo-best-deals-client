@@ -1,7 +1,7 @@
 import './index.css'
-import withData from '../lib/apollo'
+import { withApollo } from '../lib/apollo'
 
 // This default export is required in a new `pages/_app.js` file.
-export default withData(({ Component, pageProps }) => {
+export default withApollo({ssr: true})(({ Component, pageProps }) => {
     return <Component {...pageProps} />
 });

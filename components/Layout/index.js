@@ -5,7 +5,7 @@ function Layout ({children}) {
     return (
         <React.Fragment>
             <Head>
-            <title>Next Weather</title>
+            <title>Promobit</title>
             <link rel="stylesheet" href="/static/bootstrap.min.css"/>
             </Head>
             <div className={styles['App']}>

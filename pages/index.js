@@ -23,7 +23,7 @@ const GET_OFFERS = gql`
     }
 `;
 
-function App () {
+function Index () {
     const { loading, error, data, fetchMore } = useQuery(GET_OFFERS, {
         notifyOnNetworkStatusChange: true
     });
@@ -63,4 +63,4 @@ function App () {
     );
 }
 
-export default App;
+export default Index;
